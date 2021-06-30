@@ -1,0 +1,26 @@
+{
+  "name": "cjn-create-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PoeTek/cjn-create-webpack.git"
+  },
+  "author": "\"cjn\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PoeTek/cjn-create-webpack/issues"
+  },
+  "homepage": "https://github.com/PoeTek/cjn-create-webpack#readme",
+  "dependencies": {
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
